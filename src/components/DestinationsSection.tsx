@@ -1,6 +1,9 @@
 import type { RefObject } from 'react'
 import heroImg from '../assets/hero.jpg'
-import kayangan from '../assets/kayangan_lake_and_twin_lagoon.jpg'
+import kayangan from '../assets/kayangan.webp'
+import twinLagoon from '../assets/kayangan_lake_and_twin_lagoon.jpg'
+import malcapuya from '../assets/malcapuya.jpg'
+import barracuda from '../assets/barracuda.jpg'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const destinations = [
@@ -11,19 +14,19 @@ const destinations = [
         desc: 'Rated the cleanest lake in Asia, cradled by towering limestone cliffs and turquoise water.',
     },
     {
-        img: kayangan,
+        img: twinLagoon,
         name: 'Twin Lagoon',
         location: 'Coron Island, Palawan',
         desc: 'Two connected lagoons of contrasting temperatures, accessible by kayak or swimming under a rock wall.',
     },
     {
-        img: heroImg,
+        img: barracuda,
         name: 'Barracuda Lake',
         location: 'Coron Island, Palawan',
         desc: 'A unique thermocline dive site with dramatic temperature layers — a must for experienced divers.',
     },
     {
-        img: heroImg,
+        img: malcapuya,
         name: 'Malcapuya Island',
         location: 'Off Coron, Palawan',
         desc: 'Pristine white-sand shores and crystal-clear turquoise waters — a perfect paradise day escape.',

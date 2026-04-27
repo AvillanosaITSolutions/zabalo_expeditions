@@ -8,7 +8,7 @@ export default function CtaBanner() {
         <section className="relative py-32 overflow-hidden">
             <div className="absolute inset-0">
                 <img src={heroImg} alt="" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-r from-[#001e3c]/95 via-[#ff3d00]/70 to-[#0369a1]/85" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#001e3c]/97 via-[#001e3c]/80 to-[#0369a1]/90" />
             </div>
 
             <div ref={ref} className="fade-in relative max-w-3xl mx-auto px-6 text-center">

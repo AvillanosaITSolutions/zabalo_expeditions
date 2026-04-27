@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import BookingSection from '../components/BookingSection'
 import MarqueeTicker from '../components/MarqueeTicker'
 import ExpeditionsSection from '../components/ExpeditionsSection'
 import AboutSection from '../components/AboutSection'
@@ -25,6 +26,7 @@ export default function Home() {
             <CtaBanner />
             <DestinationsSection />
             <TestimonialsSection />
+            <BookingSection />
             <Footer />
         </main>
     )

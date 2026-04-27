@@ -1,7 +1,9 @@
 import type { RefObject } from 'react'
 import heroImg from '../assets/hero.jpg'
 import wreckDivingImg from '../assets/wreck_diving.jpg'
-import kayangan from '../assets/kayangan_lake_and_twin_lagoon.jpg'
+import kayangan from '../assets/kayangan.webp'
+import sunsetIsland from '../assets/sunset_island.jpg'
+import malcapuya from '../assets/malcapuya.jpg'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const expeditions = [
@@ -36,7 +38,7 @@ const expeditions = [
         desc: 'Explore iconic WWII Japanese shipwrecks beneath the Coron Bay — a world-class dive destination.',
     },
     {
-        img: heroImg,
+        img: sunsetIsland,
         title: 'Sunset Island Cruise',
         price: '₱1,800',
         unit: 'per person',
@@ -46,7 +48,7 @@ const expeditions = [
         desc: "Watch golden-hour light paint the sky over Coron's limestone karsts from the open water.",
     },
     {
-        img: heroImg,
+        img: malcapuya,
         title: 'Malcapuya Private Island',
         price: '₱3,200',
         unit: 'per person',
