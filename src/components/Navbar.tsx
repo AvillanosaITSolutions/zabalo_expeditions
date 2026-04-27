@@ -29,7 +29,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <a href="#" className="flex flex-col leading-tight">
                     <span className={`font-normal text-2xl tracking-wide ${scrolled ? 'text-[#0b7fa0]' : 'text-white'}`} style={{ fontFamily: 'Pacifico, cursive' }}>
-                        Zabalo
+                        Coralwind
                     </span>
                     <span className={`text-[0.6rem] tracking-[0.22em] uppercase font-semibold ${scrolled ? 'text-[#e85d37]' : 'text-sky-200'}`}>
                         Expeditions

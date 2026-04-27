@@ -20,7 +20,7 @@ export default function AboutSection() {
                     <div className="relative rounded-2xl overflow-hidden" style={{ aspectRatio: '4/5', maxHeight: '580px' }}>
                         <img
                             src={heroImg}
-                            alt="Zabalo Expeditions local boat"
+                            alt="Coralwind Expeditions local boat"
                             className="w-full h-full object-cover"
                         />
                     </div>
@@ -51,7 +51,7 @@ export default function AboutSection() {
                     </h2>
                     <p className="text-gray-500 leading-relaxed mb-4">
                         Founded by local fishermen families who have navigated these waters for generations,
-                        Zabalo Expeditions is a Coron-based tour operator — not a booking platform. We own
+                        Coralwind Expeditions is a Coron-based tour operator — not a booking platform. We own
                         and operate every boat, hire every crew member, and run every trip ourselves. There
                         is no middleman between you and the sea.
                     </p>

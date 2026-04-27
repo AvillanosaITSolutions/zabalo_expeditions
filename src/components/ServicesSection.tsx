@@ -54,7 +54,7 @@ export default function ServicesSection() {
                         Exclusive Charter Services
                     </h2>
                     <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-                        From guided island hops to private sunset charters, every Zabalo experience is
+                        From guided island hops to private sunset charters, every Coralwind experience is
                         crafted around your adventure.
                     </p>
                 </div>

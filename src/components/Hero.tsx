@@ -82,7 +82,7 @@ export default function Hero() {
 
                         {/* Email */}
                         <a
-                            href="mailto:hello@zabaloexpeditions.com"
+                            href="mailto:hello@coralwindexpeditions.com"
                             className="group flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-[#0b7fa0]/8 transition-colors duration-200"
                         >
                             <div className="w-10 h-10 rounded-full bg-[#0b7fa0]/10 group-hover:bg-[#0b7fa0] flex items-center justify-center transition-colors duration-200">
@@ -92,13 +92,13 @@ export default function Hero() {
                             </div>
                             <div className="text-center">
                                 <div className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">Email</div>
-                                <div className="text-xs font-semibold text-gray-700 mt-0.5">hello@zabalo<wbr />expeditions.com</div>
+                                <div className="text-xs font-semibold text-gray-700 mt-0.5">hello@coralwind<wbr />expeditions.com</div>
                             </div>
                         </a>
 
                         {/* Facebook */}
                         <a
-                            href="https://facebook.com/zabaloexpeditions"
+                            href="https://facebook.com/coralwindexpeditions"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-[#1877F2]/8 transition-colors duration-200"
@@ -110,13 +110,13 @@ export default function Hero() {
                             </div>
                             <div className="text-center">
                                 <div className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">Facebook</div>
-                                <div className="text-xs font-semibold text-gray-700 mt-0.5">@ZabaloExpeditions</div>
+                                <div className="text-xs font-semibold text-gray-700 mt-0.5">@CoralwindExpeditions</div>
                             </div>
                         </a>
 
                         {/* Instagram */}
                         <a
-                            href="https://instagram.com/zabaloexpeditions"
+                            href="https://instagram.com/coralwindexpeditions"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-pink-50 transition-colors duration-200"
@@ -128,7 +128,7 @@ export default function Hero() {
                             </div>
                             <div className="text-center">
                                 <div className="text-[0.6rem] font-bold text-gray-400 uppercase tracking-widest">Instagram</div>
-                                <div className="text-xs font-semibold text-gray-700 mt-0.5">@ZabaloExpeditions</div>
+                                <div className="text-xs font-semibold text-gray-700 mt-0.5">@CoralwindExpeditions</div>
                             </div>
                         </a>
                     </div>

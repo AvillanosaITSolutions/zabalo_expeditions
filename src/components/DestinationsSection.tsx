@@ -44,7 +44,7 @@ export default function DestinationsSection() {
                         Perfect Ports for Every Journey
                     </h2>
                     <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-                        Coron is home to some of the world's most stunning natural wonders — and Zabalo
+                        Coron is home to some of the world's most stunning natural wonders — and Coralwind
                         will take you there.
                     </p>
                 </div>

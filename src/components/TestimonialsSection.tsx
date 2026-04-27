@@ -9,7 +9,7 @@ const testimonials = [
         rating: 5,
     },
     {
-        text: 'Zabalo Expeditions made our honeymoon in Coron absolutely magical. The private sunset cruise was breathtaking — professional, friendly, and so passionate about their islands.',
+        text: 'Coralwind Expeditions made our honeymoon in Coron absolutely magical. The private sunset cruise was breathtaking — professional, friendly, and so passionate about their islands.',
         name: 'James & Ana T.',
         role: 'Honeymooners, Australia',
         rating: 5,

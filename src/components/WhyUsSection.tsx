@@ -90,7 +90,7 @@ export default function WhyUsSection() {
             <div className="max-w-7xl mx-auto px-6">
                 {/* Header */}
                 <div ref={headerRef} className="fade-in text-center mb-16">
-                    <span className="eyebrow mb-4 block">Why Zabalo</span>
+                    <span className="eyebrow mb-4 block">Why Coralwind</span>
                     <h2
                         className="text-4xl md:text-5xl font-semibold text-white mb-5 leading-tight"
                     >
@@ -122,7 +122,7 @@ export default function WhyUsSection() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
                         {/* Connector line (desktop) */}
-                        className="hidden md:block absolute top-10 left-[calc(16.67%+1rem)] right-[calc(16.67%+1rem)] h-px bg-gradient-to-r from-[#ff3d00]/40 via-[#ff3d00] to-[#ff3d00]/40"
+                        <div className="hidden md:block absolute top-10 left-[calc(16.67%+1rem)] right-[calc(16.67%+1rem)] h-px bg-gradient-to-r from-[#ff3d00]/40 via-[#ff3d00] to-[#ff3d00]/40" />
 
                         {steps.map((step, i) => (
                             <div
