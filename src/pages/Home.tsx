@@ -11,6 +11,7 @@ import CtaBanner from '../components/CtaBanner'
 import DestinationsSection from '../components/DestinationsSection'
 import TestimonialsSection from '../components/TestimonialsSection'
 import Footer from '../components/Footer'
+import ItsaBadge from '../components/ItsaBadge'
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
             <TestimonialsSection />
             <BookingSection />
             <Footer />
+            <ItsaBadge />
         </main>
     )
 }
