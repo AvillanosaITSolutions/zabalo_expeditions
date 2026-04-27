@@ -2,6 +2,7 @@ import type { RefObject } from 'react'
 import heroImg from '../assets/hero.jpg'
 import wreckDivingImg from '../assets/wreck_diving.jpg'
 import kayangan from '../assets/kayangan.webp'
+import twinLagoon from '../assets/kayangan_lake_and_twin_lagoon.jpg'
 import sunsetIsland from '../assets/sunset_island.jpg'
 import malcapuya from '../assets/malcapuya.jpg'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
@@ -18,7 +19,7 @@ const expeditions = [
         desc: 'Visit Kayangan Lake, Twin Lagoon, Skeleton Wreck, and CYC Beach on one unforgettable full-day tour.',
     },
     {
-        img: kayangan,
+        img: twinLagoon,
         title: 'Kayangan Lake & Twin Lagoon',
         price: '₱2,800',
         unit: 'per person',

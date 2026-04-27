@@ -1,5 +1,4 @@
 import type { RefObject } from 'react'
-import heroImg from '../assets/hero.jpg'
 import kayangan from '../assets/kayangan.webp'
 import twinLagoon from '../assets/kayangan_lake_and_twin_lagoon.jpg'
 import malcapuya from '../assets/malcapuya.jpg'
