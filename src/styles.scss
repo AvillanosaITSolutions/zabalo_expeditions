@@ -1,0 +1,133 @@
+:root {
+  --sea-deep: #0369a1;
+  --sea-mid: #0ea5e9;
+  --sea-light: #7dd3fc;
+  --seafoam: #06b6d4;
+  --sea-bg: #f0f9ff;
+  --sea-surface: #e0f2fe;
+  --sea-wave: #bae6fd;
+  --coral: #ff3d00;
+  --coral-hover: #e03600;
+  --navy: #001e3c;
+  --gold: #f59e0b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  color: #0c2f4a;
+  background:
+    radial-gradient(ellipse 900px 420px at 0% 0%, #dbeafe 0%, transparent 55%),
+    radial-gradient(ellipse 700px 350px at 100% 10%, #bae6fd 0%, transparent 50%),
+    radial-gradient(ellipse 600px 300px at 55% 95%, #cffafe 0%, transparent 60%),
+    #f8feff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+/* Scroll-triggered fade-in */
+.fade-in {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Photo gallery tilt — applied to the inner card div */
+.card-photo {
+  transition: transform 0.38s cubic-bezier(0.34, 1.46, 0.64, 1), box-shadow 0.32s ease;
+  will-change: transform;
+}
+.card-photo:hover {
+  transform: rotate(0deg) translateY(-10px) !important;
+  box-shadow: 0 32px 64px rgba(255, 61, 0, 0.20), 0 8px 24px rgba(0, 0, 0, 0.14) !important;
+}
+
+/* Hero heading legibility */
+.hero-heading {
+  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.55), 0 1px 6px rgba(0, 0, 0, 0.65);
+}
+
+/* Eyebrow label */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #ff3d00;
+}
+.eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background-color: #ff3d00;
+  flex-shrink: 0;
+}
+
+/* Marquee ticker */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 61, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(255, 61, 0, 0.08);
+  }
+}
+
+@keyframes ctaGlow {
+  0%,
+  100% {
+    box-shadow: 0 4px 20px rgba(255, 61, 0, 0.45), 0 2px 8px rgba(255, 61, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 8px 36px rgba(255, 61, 0, 0.65), 0 4px 16px rgba(255, 61, 0, 0.4);
+  }
+}
+.btn-glow {
+  animation: ctaGlow 2.4s ease-in-out infinite;
+}
